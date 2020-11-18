@@ -1,64 +1,53 @@
 pragma solidity ^0.6.0;
 pragma experimental ABIEncoderV2;
 
-contract HeroesMatch {
+import "./Heroes.sol";
 
-    struct Skill {
-        string skill_name;
-        string description;
-        uint min_skill_damage;
-        uint max_skill_damage;
+contract HeroesMatch is Heroes {
+
+    struct Match {
+        HeroesClass challenger;
+        HeroesClass opponent;
     }
 
-    struct Heroes {
-        string name;
-        string rarity;
-        Skill skill_1;
-        Skill skill_2;
-    }
+    event RoundWinner(HeroesClass challenger, HeroesClass opponent, bool result) ;
 
-    Heroes challenger;
-    Heroes opponent;
+    mapping(address => Match) public ownerToMatch;
 
-    constructor() public {
-
-    }
+    constructor() public {}
 
     //Set the fight arena
-    function initFight(Heroes memory _challenger, Heroes memory _opponent) public {
-        challenger = _challenger;
-        opponent = _opponent;        
+    function initFight(HeroesClass memory _challenger, HeroesClass memory _opponent) public {
+        ownerToMatch[msg.sender] = Match(_challenger,_opponent);
     }
 
     //Start the fight and determine damage.
-    function beginFight(uint randomNumberChallenger, uint randomNumberOpponent) public view returns (string memory, uint){
+    function beginFight(uint randomNumberChallenger, uint randomNumberOpponent) public returns (bool, uint){
         //No challenger or opponent
-        require(keccak256(abi.encodePacked(challenger.name)) != "", "No challenger");
-        require(keccak256(abi.encodePacked(opponent.name)) != "", "No opponent");
+        require(keccak256(abi.encodePacked(ownerToMatch[msg.sender].challenger.name)) != keccak256(abi.encodePacked("")), "No challenger");
+        require(keccak256(abi.encodePacked(ownerToMatch[msg.sender].opponent.name)) != keccak256(abi.encodePacked("")), "No opponent");
 
         //Determine winner
-        string memory winner = winnerOfFight(randomNumberChallenger, randomNumberOpponent);
+        bool winner = didChallengerWin(randomNumberChallenger, randomNumberOpponent);
 
         //Give result and the amount of damage
-        if(keccak256(abi.encodePacked(winner)) == keccak256(abi.encodePacked(challenger.name))) {
-            return ("Challenger won and did some damage", challenger.skill_1.min_skill_damage);
+        if(winner) {
+            return (true, ownerToMatch[msg.sender].challenger.skill_1.min_skill_damage);
         }
-        else if(keccak256(abi.encodePacked(winner)) == keccak256(abi.encodePacked(opponent.name))) {
-            return ("Challenger lost and received some damage", opponent.skill_2.min_skill_damage);
-        }
-        
+        else {
+            return (false, ownerToMatch[msg.sender].opponent.skill_2.min_skill_damage);
+        }   
     }
 
     //Determine who wins the fight
-    function winnerOfFight(uint randomNumberChallenger, uint randomNumberOpponent) public view returns(string memory) {
+    function didChallengerWin(uint randomNumberChallenger, uint randomNumberOpponent) public returns(bool) {
         if(randomNumberChallenger > randomNumberOpponent) {
-            return challenger.name;
-        }
-        else if (randomNumberChallenger < randomNumberOpponent) {
-            return opponent.name;
+            emit RoundWinner(ownerToMatch[msg.sender].challenger, ownerToMatch[msg.sender].opponent, true);
+            return true;
         }
         else {
-            return "TIE";
+            emit RoundWinner(ownerToMatch[msg.sender].challenger, ownerToMatch[msg.sender].opponent, false);
+            return false;
         }
     }
 }

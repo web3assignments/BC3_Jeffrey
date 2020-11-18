@@ -1,35 +1,23 @@
 pragma solidity ^0.6.0;
 pragma experimental ABIEncoderV2;
 
-contract HeroesMatch {
+import "./Heroes.sol";
 
-    struct Skill {
-        string skill_name;
-        string description;
-        uint min_skill_damage;
-        uint max_skill_damage;
-    }
-
-    struct Heroes {
-        string name;
-        uint rarity;
-        Skill skill_1;
-        Skill skill_2;
-    }
+contract HeroesMatch is Heroes {
 
     struct Match {
-        Heroes challenger;
-        Heroes opponent;
+        HeroesClass challenger;
+        HeroesClass opponent;
     }
 
-    event RoundWinner(Heroes challenger, Heroes opponent, bool result) ;
+    event RoundWinner(HeroesClass challenger, HeroesClass opponent, bool result) ;
 
     mapping(address => Match) public ownerToMatch;
 
     constructor() public {}
 
     //Set the fight arena
-    function initFight(Heroes memory _challenger, Heroes memory _opponent) public {
+    function initFight(HeroesClass memory _challenger, HeroesClass memory _opponent) public {
         ownerToMatch[msg.sender] = Match(_challenger,_opponent);
     }
 
