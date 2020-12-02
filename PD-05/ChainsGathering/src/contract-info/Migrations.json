@@ -1505,12 +1505,12 @@
     "4": {
       "events": {},
       "links": {},
-      "address": "0x2319B9b479F1D1aD93A47A2c51784f33a371d5bB",
-      "transactionHash": "0xd179f0de853c707b9cff966bf1bcf92de3cafa0b3f902eab9cfed3ca654bb2ce"
+      "address": "0x4ceA553B67113417F415dAe0A0022B9D5e6Fa26a",
+      "transactionHash": "0x8915455af7f6b2d70fa8451e6dd267f09c2c038d2bc537acdff5049191d72388"
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-01T15:19:01.158Z",
+  "updatedAt": "2020-12-02T10:12:39.579Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",

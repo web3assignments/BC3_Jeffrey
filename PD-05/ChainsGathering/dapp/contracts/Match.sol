@@ -36,11 +36,15 @@ contract HeroesMatch {
         return _challenger;
     }
 
+    function test() public returns (string memory){
+        return "successfull test";
+    }
+
     //Start the fight and determine damage.
     function beginFight(uint randomNumberChallenger, uint randomNumberOpponent) public returns (bool, uint){
         //No challenger or opponent
-        require(keccak256(abi.encodePacked(ownerToMatch[msg.sender].challenger.name)) != keccak256(abi.encodePacked("")), "No challenger");
-        require(keccak256(abi.encodePacked(ownerToMatch[msg.sender].opponent.name)) != keccak256(abi.encodePacked("")), "No opponent");
+        //require(keccak256(abi.encodePacked(ownerToMatch[msg.sender].challenger.name)) != keccak256(abi.encodePacked("")), "No challenger");
+        //require(keccak256(abi.encodePacked(ownerToMatch[msg.sender].opponent.name)) != keccak256(abi.encodePacked("")), "No opponent");
 
         //Determine winner
         bool winner = didChallengerWin(randomNumberChallenger, randomNumberOpponent);

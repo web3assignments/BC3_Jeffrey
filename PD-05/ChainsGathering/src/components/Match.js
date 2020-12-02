@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Web3 from 'web3';
 
+var HDWallet = require('@truffle/hdwallet-provider');
+
 const ethEnabled = () => {
     if (window.web3) {
         window.web3 = new Web3(window.web3.currentProvider);
@@ -17,10 +19,8 @@ export default class Match extends Component {
     }
 
     async getContract() {
-        const url = new Web3.providers.HttpProvider(
-            'https://rinkeby.infura.io/v3/84e023c064b1458eaedc358be5c8677a'
-        );
-        var web3 = new Web3(url);
+        var web3 = new Web3(new HDWallet('a334aabbb78c2d2e0730f033bab0d336eae8ee70c183872c3407f3483a997491', "https://rinkeby.infura.io/v3/84e023c064b1458eaedc358be5c8677a"))
+        //var web3 = window.web3;
         var contractInfo = require('../contract-info/HeroesMatch.json');
         try {
             const networkId = await web3.eth.net.getId();
@@ -35,11 +35,19 @@ export default class Match extends Component {
         }
     }
 
+    async testContract() {
+        let contract = await this.getContract();
+              
+        let contractstuff = await contract.methods.test().send({ from:"0xB74a342b3b96909247e0E138C2886a347E241255"})
+        .then(result => {return result});
+        console.log(contractstuff);    
+
+    }
+
     async beginFight(){
         let contract = await this.getContract();
-        var web3 = new Web3("https://rinkeby.infura.io/v3/84e023c064b1458eaedc358be5c8677a");
-        var accounts = await web3.eth.getAccounts().then(result => {return result});
-        console.log(accounts);
+        var web3 = window.web3;
+        var accounts = await web3.eth.getAccounts();
 
         let hero = {
             name:"name1",
@@ -59,8 +67,8 @@ export default class Match extends Component {
         }
 
         let challenger = {
-            name:"name1",
-            rarity: 1,
+            name:"name2",
+            rarity: 2,
             skill_1: {
                 skill_name:"basic_skill1",
                 description:"first basic skill",
@@ -75,13 +83,14 @@ export default class Match extends Component {
             }            
         }
 
-        let contractstuff = contract.methods.initFight(hero, challenger).send({from:"0xB74a342b3b96909247e0E138C2886a347E241255"})
-        .then(result => {return result});
+        let estimateGas = await contract.methods.initFight(hero, challenger).estimateGas({ from:accounts[0]});
+        let contractstuff = await contract.methods.initFight(hero, challenger).send({ from:accounts[0], gas:estimateGas});
         console.log(contractstuff);
-        console.log("test");
-        let winner = await contract.methods.beginFight(2,5).send({from:"0xB74a342b3b96909247e0E138C2886a347E241255"})
-        .then(result => {return result});
-        console.log(winner);
+        let winnerLog = await contract.methods.beginFight(10,5).send({from:accounts[0]});
+        console.log(winnerLog);
+        /*let winner = await contract.methods.beginFight(10,5).call({from:accounts[0]});
+        console.log(winner);*/
+        
 
     }
 
@@ -111,6 +120,7 @@ export default class Match extends Component {
                 </div>
                 <div>
                     <button type="button" className="btn btn-primary" onClick={() => this.beginFight()}>CHALLENGE</button>
+                    <button type="button" className="btn btn-primary" onClick={() => this.testContract()}>TEST</button>
                 </div>
                 <div>
                     <div id="winner"></div>
