@@ -1,7 +1,7 @@
 const { pathExists } = require('fs-extra');
 const PrivateKeyProvider = require('truffle-privatekey-provider');
 var HDWalletProvider = require('truffle-hdwallet-provider');
-var mnemonic = "removed due privacy";
+var mnemonic = "removed due privacy issue ";
 
 const path = require('path');
 

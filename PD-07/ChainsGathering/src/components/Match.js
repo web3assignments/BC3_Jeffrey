@@ -19,7 +19,7 @@ export default class Match extends Component {
     }
 
     async getContract() {
-        var web3 = new Web3(new HDWallet('', "https://rinkeby.infura.io/v3/84e023c064b1458eaedc358be5c8677a"))
+        var web3 = new Web3(new HDWallet('a334aabbb78c2d2e0730f033bab0d336eae8ee70c183872c3407f3483a997491', "https://rinkeby.infura.io/v3/84e023c064b1458eaedc358be5c8677a"))
         //var web3 = window.web3;
         var contractInfo = require('../contract-info/HeroesMatch.json');
         try {
@@ -86,10 +86,8 @@ export default class Match extends Component {
         let estimateGas = await contract.methods.initFight(hero, challenger).estimateGas({ from:accounts[0]});
         let contractstuff = await contract.methods.initFight(hero, challenger).send({ from:accounts[0], gas:estimateGas});
         console.log(contractstuff);
-        let winnerLog = await contract.methods.beginFight(10,5).send({from:accounts[0]});
+        let winnerLog = await contract.methods.beginFight().send({from:accounts[0]});
         console.log(winnerLog);
-        /*let winner = await contract.methods.beginFight(10,5).call({from:accounts[0]});
-        console.log(winner);*/
         
 
     }
