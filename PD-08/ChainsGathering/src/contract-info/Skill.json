@@ -1,0 +1,1014 @@
+{
+  "contractName": "Skill",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "skill_name",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "min_skill_damage",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "max_skill_damage",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct Skill.SkillClass",
+          "name": "skill",
+          "type": "tuple"
+        }
+      ],
+      "name": "increaseSkillDamage",
+      "outputs": [
+        {
+          "components": [
+            {
+              "internalType": "string",
+              "name": "skill_name",
+              "type": "string"
+            },
+            {
+              "internalType": "string",
+              "name": "description",
+              "type": "string"
+            },
+            {
+              "internalType": "uint256",
+              "name": "min_skill_damage",
+              "type": "uint256"
+            },
+            {
+              "internalType": "uint256",
+              "name": "max_skill_damage",
+              "type": "uint256"
+            }
+          ],
+          "internalType": "struct Skill.SkillClass",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"skill_name\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"min_skill_damage\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"max_skill_damage\",\"type\":\"uint256\"}],\"internalType\":\"struct Skill.SkillClass\",\"name\":\"skill\",\"type\":\"tuple\"}],\"name\":\"increaseSkillDamage\",\"outputs\":[{\"components\":[{\"internalType\":\"string\",\"name\":\"skill_name\",\"type\":\"string\"},{\"internalType\":\"string\",\"name\":\"description\",\"type\":\"string\"},{\"internalType\":\"uint256\",\"name\":\"min_skill_damage\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"max_skill_damage\",\"type\":\"uint256\"}],\"internalType\":\"struct Skill.SkillClass\",\"name\":\"\",\"type\":\"tuple\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/jeffrey/token/ChainsGathering/dapp/contracts/Skill.sol\":\"Skill\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/jeffrey/token/ChainsGathering/dapp/contracts/Skill.sol\":{\"keccak256\":\"0x85cece7d6dde2f64932be6405d0497df14172a0eada1ac5b22e016eb42b5477c\",\"urls\":[\"bzz-raw://c8552a8333f57cf079e2cdc9e6a28141810fa4442180a1f42ae4b4a0019e086b\",\"dweb:/ipfs/QmR68go7T9cybej3gpEu2kt6aMwm2cf6YksyNoG9zH9cpS\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506103fb806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063349b959114610030575b600080fd5b61004a600480360381019061004591906101c7565b610060565b60405161005791906102ba565b60405180910390f35b610068610092565b600a826040018181510191508181525050600a826060018181510191508181525050819050919050565b6040518060800160405280606081526020016060815260200160008152602001600081525090565b600082601f8301126100cb57600080fd5b81356100de6100d982610309565b6102dc565b915080825260208301602083018583830111156100fa57600080fd5b61010583828461035b565b50505092915050565b60006080828403121561012057600080fd5b61012a60806102dc565b9050600082013567ffffffffffffffff81111561014657600080fd5b610152848285016100ba565b600083015250602082013567ffffffffffffffff81111561017257600080fd5b61017e848285016100ba565b6020830152506040610192848285016101b2565b60408301525060606101a6848285016101b2565b60608301525092915050565b6000813590506101c1816103ae565b92915050565b6000602082840312156101d957600080fd5b600082013567ffffffffffffffff8111156101f357600080fd5b6101ff8482850161010e565b91505092915050565b600061021382610335565b61021d8185610340565b935061022d81856020860161036a565b6102368161039d565b840191505092915050565b6000608083016000830151848203600086015261025e8282610208565b915050602083015184820360208601526102788282610208565b915050604083015161028d60408601826102ab565b5060608301516102a060608601826102ab565b508091505092915050565b6102b481610351565b82525050565b600060208201905081810360008301526102d48184610241565b905092915050565b6000604051905081810181811067ffffffffffffffff821117156102ff57600080fd5b8060405250919050565b600067ffffffffffffffff82111561032057600080fd5b601f19601f8301169050602081019050919050565b600081519050919050565b600082825260208201905092915050565b6000819050919050565b82818337600083830152505050565b60005b8381101561038857808201518184015260208101905061036d565b83811115610397576000848401525b50505050565b6000601f19601f8301169050919050565b6103b781610351565b81146103c257600080fd5b5056fea2646970667358221220099d4b226627f8c7b5f53a6dcee5b5d4aee6c6f82213c6d73f53cb64425eb25164736f6c634300060c0033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c8063349b959114610030575b600080fd5b61004a600480360381019061004591906101c7565b610060565b60405161005791906102ba565b60405180910390f35b610068610092565b600a826040018181510191508181525050600a826060018181510191508181525050819050919050565b6040518060800160405280606081526020016060815260200160008152602001600081525090565b600082601f8301126100cb57600080fd5b81356100de6100d982610309565b6102dc565b915080825260208301602083018583830111156100fa57600080fd5b61010583828461035b565b50505092915050565b60006080828403121561012057600080fd5b61012a60806102dc565b9050600082013567ffffffffffffffff81111561014657600080fd5b610152848285016100ba565b600083015250602082013567ffffffffffffffff81111561017257600080fd5b61017e848285016100ba565b6020830152506040610192848285016101b2565b60408301525060606101a6848285016101b2565b60608301525092915050565b6000813590506101c1816103ae565b92915050565b6000602082840312156101d957600080fd5b600082013567ffffffffffffffff8111156101f357600080fd5b6101ff8482850161010e565b91505092915050565b600061021382610335565b61021d8185610340565b935061022d81856020860161036a565b6102368161039d565b840191505092915050565b6000608083016000830151848203600086015261025e8282610208565b915050602083015184820360208601526102788282610208565b915050604083015161028d60408601826102ab565b5060608301516102a060608601826102ab565b508091505092915050565b6102b481610351565b82525050565b600060208201905081810360008301526102d48184610241565b905092915050565b6000604051905081810181811067ffffffffffffffff821117156102ff57600080fd5b8060405250919050565b600067ffffffffffffffff82111561032057600080fd5b601f19601f8301169050602081019050919050565b600081519050919050565b600082825260208201905092915050565b6000819050919050565b82818337600083830152505050565b60005b8381101561038857808201518184015260208101905061036d565b83811115610397576000848401525b50505050565b6000601f19601f8301169050919050565b6103b781610351565b81146103c257600080fd5b5056fea2646970667358221220099d4b226627f8c7b5f53a6dcee5b5d4aee6c6f82213c6d73f53cb64425eb25164736f6c634300060c0033",
+  "immutableReferences": {},
+  "sourceMap": "59:395:4:-:0;;;428:23;;;;;;;;;;59:395;;;;;;",
+  "deployedSourceMap": "59:395:4:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;229:193;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;;298:17;;:::i;:::-;353:2;327:5;:22;;:28;;;;;;;;;;;391:2;365:5;:22;;:28;;;;;;;;;;;410:5;403:12;;229:193;;;:::o;-1:-1:-1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;6:442::-;;108:3;101:4;93:6;89:17;85:27;75:2;;126:1;123;116:12;75:2;163:6;150:20;185:65;200:49;242:6;200:49;:::i;:::-;185:65;:::i;:::-;176:74;;270:6;263:5;256:21;306:4;298:6;294:17;339:4;332:5;328:16;374:3;365:6;360:3;356:16;353:25;350:2;;;391:1;388;381:12;350:2;401:41;435:6;430:3;425;401:41;:::i;:::-;68:380;;;;;;;:::o;486:986::-;;602:4;590:9;585:3;581:19;577:30;574:2;;;620:1;617;610:12;574:2;638:20;653:4;638:20;:::i;:::-;629:29;;742:1;731:9;727:17;714:31;765:18;757:6;754:30;751:2;;;797:1;794;787:12;751:2;832:59;887:3;878:6;867:9;863:22;832:59;:::i;:::-;825:4;818:5;814:16;807:85;668:235;988:2;977:9;973:18;960:32;1012:18;1004:6;1001:30;998:2;;;1044:1;1041;1034:12;998:2;1079:59;1134:3;1125:6;1114:9;1110:22;1079:59;:::i;:::-;1072:4;1065:5;1061:16;1054:85;913:237;1212:2;1245:49;1290:3;1281:6;1270:9;1266:22;1245:49;:::i;:::-;1238:4;1231:5;1227:16;1220:75;1160:146;1368:2;1401:49;1446:3;1437:6;1426:9;1422:22;1401:49;:::i;:::-;1394:4;1387:5;1383:16;1376:75;1316:146;568:904;;;;:::o;1479:130::-;;1559:6;1546:20;1537:29;;1571:33;1598:5;1571:33;:::i;:::-;1531:78;;;;:::o;1616:381::-;;1747:2;1735:9;1726:7;1722:23;1718:32;1715:2;;;1763:1;1760;1753:12;1715:2;1826:1;1815:9;1811:17;1798:31;1849:18;1841:6;1838:30;1835:2;;;1881:1;1878;1871:12;1835:2;1901:80;1973:7;1964:6;1953:9;1949:22;1901:80;:::i;:::-;1891:90;;1777:210;1709:288;;;;:::o;2004:327::-;;2106:39;2139:5;2106:39;:::i;:::-;2157:61;2211:6;2206:3;2157:61;:::i;:::-;2150:68;;2223:52;2268:6;2263:3;2256:4;2249:5;2245:16;2223:52;:::i;:::-;2296:29;2318:6;2296:29;:::i;:::-;2291:3;2287:39;2280:46;;2086:245;;;;;:::o;2395:996::-;;2550:4;2545:3;2541:14;2639:4;2632:5;2628:16;2622:23;2691:3;2685:4;2681:14;2674:4;2669:3;2665:14;2658:38;2711:73;2779:4;2765:12;2711:73;:::i;:::-;2703:81;;2570:226;2876:4;2869:5;2865:16;2859:23;2928:3;2922:4;2918:14;2911:4;2906:3;2902:14;2895:38;2948:73;3016:4;3002:12;2948:73;:::i;:::-;2940:81;;2806:227;3118:4;3111:5;3107:16;3101:23;3130:63;3187:4;3182:3;3178:14;3164:12;3130:63;:::i;:::-;3043:156;3284:4;3277:5;3273:16;3267:23;3296:63;3353:4;3348:3;3344:14;3330:12;3296:63;:::i;:::-;3209:156;3382:4;3375:11;;2523:868;;;;;:::o;3398:103::-;3471:24;3489:5;3471:24;:::i;:::-;3466:3;3459:37;3453:48;;:::o;3508:378::-;;3689:2;3678:9;3674:18;3666:26;;3739:9;3733:4;3729:20;3725:1;3714:9;3710:17;3703:47;3764:112;3871:4;3862:6;3764:112;:::i;:::-;3756:120;;3660:226;;;;:::o;3893:256::-;;3955:2;3949:9;3939:19;;3993:4;3985:6;3981:17;4092:6;4080:10;4077:22;4056:18;4044:10;4041:34;4038:62;4035:2;;;4113:1;4110;4103:12;4035:2;4133:10;4129:2;4122:22;3933:216;;;;:::o;4156:322::-;;4300:18;4292:6;4289:30;4286:2;;;4332:1;4329;4322:12;4286:2;4399:4;4395:9;4388:4;4380:6;4376:17;4372:33;4364:41;;4463:4;4457;4453:15;4445:23;;4223:255;;;:::o;4485:122::-;;4579:5;4573:12;4563:22;;4544:63;;;:::o;4615:153::-;;4720:6;4715:3;4708:19;4757:4;4752:3;4748:14;4733:29;;4701:67;;;;:::o;4776:72::-;;4838:5;4827:16;;4821:27;;;:::o;4856:145::-;4937:6;4932:3;4927;4914:30;4993:1;4984:6;4979:3;4975:16;4968:27;4907:94;;;:::o;5010:268::-;5075:1;5082:101;5096:6;5093:1;5090:13;5082:101;;;5172:1;5167:3;5163:11;5157:18;5153:1;5148:3;5144:11;5137:39;5118:2;5115:1;5111:10;5106:15;;5082:101;;;5198:6;5195:1;5192:13;5189:2;;;5263:1;5254:6;5249:3;5245:16;5238:27;5189:2;5059:219;;;;:::o;5286:97::-;;5374:2;5370:7;5365:2;5358:5;5354:14;5350:28;5340:38;;5334:49;;;:::o;5391:117::-;5460:24;5478:5;5460:24;:::i;:::-;5453:5;5450:35;5440:2;;5499:1;5496;5489:12;5440:2;5434:74;:::o",
+  "source": "pragma solidity ^0.6.0;\npragma experimental ABIEncoderV2;\n\ncontract Skill {\n\n    struct SkillClass {\n        string skill_name;\n        string description;\n        uint min_skill_damage;\n        uint max_skill_damage;\n    }\n\n    function increaseSkillDamage(SkillClass memory skill) public returns(SkillClass memory) {\n        skill.min_skill_damage += 10;\n        skill.max_skill_damage += 10;\n        return skill;\n    }\n\n    constructor() public {}\n\n}",
+  "sourcePath": "/home/jeffrey/token/ChainsGathering/dapp/contracts/Skill.sol",
+  "ast": {
+    "absolutePath": "/home/jeffrey/token/ChainsGathering/dapp/contracts/Skill.sol",
+    "exportedSymbols": {
+      "Skill": [
+        416
+      ]
+    },
+    "id": 417,
+    "license": null,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 379,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "id": 380,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "24:33:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 416,
+        "linearizedBaseContracts": [
+          416
+        ],
+        "name": "Skill",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Skill.SkillClass",
+            "id": 389,
+            "members": [
+              {
+                "constant": false,
+                "id": 382,
+                "mutability": "mutable",
+                "name": "skill_name",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "109:17:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 381,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "109:6:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 384,
+                "mutability": "mutable",
+                "name": "description",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "136:18:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 383,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "136:6:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 386,
+                "mutability": "mutable",
+                "name": "min_skill_damage",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "164:21:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 385,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "164:4:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 388,
+                "mutability": "mutable",
+                "name": "max_skill_damage",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "195:21:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 387,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "195:4:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "SkillClass",
+            "nodeType": "StructDefinition",
+            "scope": 416,
+            "src": "81:142:4",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 410,
+              "nodeType": "Block",
+              "src": "317:105:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 400,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 396,
+                        "name": "skill",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 391,
+                        "src": "327:5:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                          "typeString": "struct Skill.SkillClass memory"
+                        }
+                      },
+                      "id": 398,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "min_skill_damage",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 386,
+                      "src": "327:22:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "3130",
+                      "id": 399,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "353:2:4",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_10_by_1",
+                        "typeString": "int_const 10"
+                      },
+                      "value": "10"
+                    },
+                    "src": "327:28:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 401,
+                  "nodeType": "ExpressionStatement",
+                  "src": "327:28:4"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 406,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 402,
+                        "name": "skill",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 391,
+                        "src": "365:5:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                          "typeString": "struct Skill.SkillClass memory"
+                        }
+                      },
+                      "id": 404,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "max_skill_damage",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 388,
+                      "src": "365:22:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "3130",
+                      "id": 405,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "391:2:4",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_10_by_1",
+                        "typeString": "int_const 10"
+                      },
+                      "value": "10"
+                    },
+                    "src": "365:28:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 407,
+                  "nodeType": "ExpressionStatement",
+                  "src": "365:28:4"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 408,
+                    "name": "skill",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 391,
+                    "src": "410:5:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                      "typeString": "struct Skill.SkillClass memory"
+                    }
+                  },
+                  "functionReturnParameters": 395,
+                  "id": 409,
+                  "nodeType": "Return",
+                  "src": "403:12:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "functionSelector": "349b9591",
+            "id": 411,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "increaseSkillDamage",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 392,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 391,
+                  "mutability": "mutable",
+                  "name": "skill",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 411,
+                  "src": "258:23:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                    "typeString": "struct Skill.SkillClass"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 390,
+                    "name": "SkillClass",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 389,
+                    "src": "258:10:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_SkillClass_$389_storage_ptr",
+                      "typeString": "struct Skill.SkillClass"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "257:25:4"
+            },
+            "returnParameters": {
+              "id": 395,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 394,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 411,
+                  "src": "298:17:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                    "typeString": "struct Skill.SkillClass"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 393,
+                    "name": "SkillClass",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 389,
+                    "src": "298:10:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_SkillClass_$389_storage_ptr",
+                      "typeString": "struct Skill.SkillClass"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "297:19:4"
+            },
+            "scope": 416,
+            "src": "229:193:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 414,
+              "nodeType": "Block",
+              "src": "449:2:4",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 415,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 412,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "439:2:4"
+            },
+            "returnParameters": {
+              "id": 413,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "449:0:4"
+            },
+            "scope": 416,
+            "src": "428:23:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 417,
+        "src": "59:395:4"
+      }
+    ],
+    "src": "0:454:4"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/jeffrey/token/ChainsGathering/dapp/contracts/Skill.sol",
+    "exportedSymbols": {
+      "Skill": [
+        416
+      ]
+    },
+    "id": 417,
+    "license": null,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 379,
+        "literals": [
+          "solidity",
+          "^",
+          "0.6",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:4"
+      },
+      {
+        "id": 380,
+        "literals": [
+          "experimental",
+          "ABIEncoderV2"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "24:33:4"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 416,
+        "linearizedBaseContracts": [
+          416
+        ],
+        "name": "Skill",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Skill.SkillClass",
+            "id": 389,
+            "members": [
+              {
+                "constant": false,
+                "id": 382,
+                "mutability": "mutable",
+                "name": "skill_name",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "109:17:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 381,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "109:6:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 384,
+                "mutability": "mutable",
+                "name": "description",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "136:18:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 383,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "136:6:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 386,
+                "mutability": "mutable",
+                "name": "min_skill_damage",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "164:21:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 385,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "164:4:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 388,
+                "mutability": "mutable",
+                "name": "max_skill_damage",
+                "nodeType": "VariableDeclaration",
+                "overrides": null,
+                "scope": 389,
+                "src": "195:21:4",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 387,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "195:4:4",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "SkillClass",
+            "nodeType": "StructDefinition",
+            "scope": 416,
+            "src": "81:142:4",
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 410,
+              "nodeType": "Block",
+              "src": "317:105:4",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 400,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 396,
+                        "name": "skill",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 391,
+                        "src": "327:5:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                          "typeString": "struct Skill.SkillClass memory"
+                        }
+                      },
+                      "id": 398,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "min_skill_damage",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 386,
+                      "src": "327:22:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "3130",
+                      "id": 399,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "353:2:4",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_10_by_1",
+                        "typeString": "int_const 10"
+                      },
+                      "value": "10"
+                    },
+                    "src": "327:28:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 401,
+                  "nodeType": "ExpressionStatement",
+                  "src": "327:28:4"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 406,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 402,
+                        "name": "skill",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 391,
+                        "src": "365:5:4",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                          "typeString": "struct Skill.SkillClass memory"
+                        }
+                      },
+                      "id": 404,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "max_skill_damage",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 388,
+                      "src": "365:22:4",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "3130",
+                      "id": 405,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "391:2:4",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_10_by_1",
+                        "typeString": "int_const 10"
+                      },
+                      "value": "10"
+                    },
+                    "src": "365:28:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 407,
+                  "nodeType": "ExpressionStatement",
+                  "src": "365:28:4"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 408,
+                    "name": "skill",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 391,
+                    "src": "410:5:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                      "typeString": "struct Skill.SkillClass memory"
+                    }
+                  },
+                  "functionReturnParameters": 395,
+                  "id": 409,
+                  "nodeType": "Return",
+                  "src": "403:12:4"
+                }
+              ]
+            },
+            "documentation": null,
+            "functionSelector": "349b9591",
+            "id": 411,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "increaseSkillDamage",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 392,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 391,
+                  "mutability": "mutable",
+                  "name": "skill",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 411,
+                  "src": "258:23:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                    "typeString": "struct Skill.SkillClass"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 390,
+                    "name": "SkillClass",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 389,
+                    "src": "258:10:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_SkillClass_$389_storage_ptr",
+                      "typeString": "struct Skill.SkillClass"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "257:25:4"
+            },
+            "returnParameters": {
+              "id": 395,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 394,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 411,
+                  "src": "298:17:4",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_SkillClass_$389_memory_ptr",
+                    "typeString": "struct Skill.SkillClass"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 393,
+                    "name": "SkillClass",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 389,
+                    "src": "298:10:4",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_SkillClass_$389_storage_ptr",
+                      "typeString": "struct Skill.SkillClass"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "297:19:4"
+            },
+            "scope": 416,
+            "src": "229:193:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 414,
+              "nodeType": "Block",
+              "src": "449:2:4",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 415,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 412,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "439:2:4"
+            },
+            "returnParameters": {
+              "id": 413,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "449:0:4"
+            },
+            "scope": 416,
+            "src": "428:23:4",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 417,
+        "src": "59:395:4"
+      }
+    ],
+    "src": "0:454:4"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.12+commit.27d51765.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.2",
+  "updatedAt": "2020-12-01T14:41:39.653Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
