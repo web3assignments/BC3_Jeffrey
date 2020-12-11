@@ -1,4 +1,5 @@
 {
+  "homepage": "https://web3assignments.github.io/BC3_Jeffrey/PD-07/ChainsGathering/public/index.html",
   "engines": {
     "npm": ">=5.2"
   },
@@ -38,6 +39,8 @@
     "prettier": "^1.13.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "ganache": "ganache-cli",
     "ganache-m": "ganache-cli -m 'alpha unfold penalty man day repeat park top film weekend combine lion'",
     "ganache_quiet": "echo if ganache_quiet fails to start you may have a ganache process already running on port 8545 && (ganache-cli >/dev/null)",
