@@ -1,4 +1,4 @@
-WIP:
+Contract-address:0x493306b98DC280d4C7551b3a94602da3d998b70A
 
 This project is migrated with node and the truffle functions can be used with npm.
 The commands are located in the package.json file under the scripts variable.
