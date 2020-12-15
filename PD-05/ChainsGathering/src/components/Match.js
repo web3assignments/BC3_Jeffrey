@@ -44,6 +44,15 @@ export default class Match extends Component {
 
     }
 
+    announceWinner(result){
+        if(result) {
+            document.getElementById('winner').innerHTML = "The Hero came victorious";
+        }
+        else {
+            document.getElementById('winner').innerHTML = "The Hero lost, try again";
+        }
+    }	
+	
     async beginFight(){
         let contract = await this.getContract();
         var web3 = window.web3;
@@ -88,8 +97,7 @@ export default class Match extends Component {
         console.log(contractstuff);
         let winnerLog = await contract.methods.beginFight(10,5).send({from:accounts[0]});
         console.log(winnerLog);
-        /*let winner = await contract.methods.beginFight(10,5).call({from:accounts[0]});
-        console.log(winner);*/
+        this.announceWinner(winnerLog.events.RoundWinner.returnValues.result);
         
 
     }
