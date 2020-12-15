@@ -48,12 +48,12 @@ class App extends Component {
         <div>
           <h1>Welcome to the Match of chainuries</h1>
         </div>
+        <Match></Match>
         <div>
           <h3>Generate vanity address</h3>
           <button type="button" className="btn btn-primary" onClick={() => this.generateVanityAddress()}>VANITY</button>
           <text id="generatedVanity">{this.state.vanityAddress}</text>
-        </div>
-        <Match></Match>
+        </div>        
       </div>
     );
   }

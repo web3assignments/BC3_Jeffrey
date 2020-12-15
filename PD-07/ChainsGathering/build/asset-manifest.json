@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/css/main.b6ea7c43.chunk.css",
-    "main.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/main.a1c52ce7.chunk.js",
-    "main.js.map": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/main.a1c52ce7.chunk.js.map",
+    "main.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/main.ba3802cf.chunk.js",
+    "main.js.map": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/main.ba3802cf.chunk.js.map",
     "runtime-main.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/runtime-main.8957195a.js",
     "runtime-main.js.map": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/runtime-main.8957195a.js.map",
     "static/css/2.6414bb7b.chunk.css": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/css/2.6414bb7b.chunk.css",
-    "static/js/2.1447a244.chunk.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/2.1447a244.chunk.js",
-    "static/js/2.1447a244.chunk.js.map": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/2.1447a244.chunk.js.map",
+    "static/js/2.55f8502b.chunk.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/2.55f8502b.chunk.js",
+    "static/js/2.55f8502b.chunk.js.map": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/2.55f8502b.chunk.js.map",
     "index.html": "/BC3_Jeffrey/PD-07/ChainsGathering/public/index.html",
-    "precache-manifest.f4be47c7bf4ad5c69e9b802aa30eca77.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/precache-manifest.f4be47c7bf4ad5c69e9b802aa30eca77.js",
+    "precache-manifest.68e15fb11b07fd3daf26fbfca3b9c237.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/precache-manifest.68e15fb11b07fd3daf26fbfca3b9c237.js",
     "service-worker.js": "/BC3_Jeffrey/PD-07/ChainsGathering/public/service-worker.js",
     "static/css/2.6414bb7b.chunk.css.map": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/css/2.6414bb7b.chunk.css.map",
     "static/css/main.b6ea7c43.chunk.css.map": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/css/main.b6ea7c43.chunk.css.map",
-    "static/js/2.1447a244.chunk.js.LICENSE.txt": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/2.1447a244.chunk.js.LICENSE.txt"
+    "static/js/2.55f8502b.chunk.js.LICENSE.txt": "/BC3_Jeffrey/PD-07/ChainsGathering/public/static/js/2.55f8502b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8957195a.js",
     "static/css/2.6414bb7b.chunk.css",
-    "static/js/2.1447a244.chunk.js",
+    "static/js/2.55f8502b.chunk.js",
     "static/css/main.b6ea7c43.chunk.css",
-    "static/js/main.a1c52ce7.chunk.js"
+    "static/js/main.ba3802cf.chunk.js"
   ]
 }
