@@ -27,6 +27,10 @@ contract Heroes is Skill{
         return hero;
     }
 
+    function destroySkill(Skill SC) public{
+        SC.destroy();
+    }
+
     constructor() public {}
 
 }

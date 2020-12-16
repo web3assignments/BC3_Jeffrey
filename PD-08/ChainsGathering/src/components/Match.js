@@ -73,6 +73,20 @@ export default class Match extends Component {
         }
     }
 
+    async eliminateHero() {
+        let contract = await this.getContract();
+        let getTemp = await contract.methods.destroyHero().send({ from:accounts[0] })
+        .then(result => {return result})
+        .catch(err => console.log(err));
+    }
+
+    async reviveHero() {
+        let contract = await this.getContract();
+        let getTemp = await contract.methods.deployHero().send({ from:accounts[0] })
+        .then(result => {return result})
+        .catch(err => console.log(err));
+    }    
+
     async getMapTemp() {
 
         let contract = await this.getContract();
@@ -176,6 +190,14 @@ export default class Match extends Component {
                     </div>
                     <div className="col-md-8">
                         <p id="fight-weather"></p>
+                    </div>                    
+                </div>
+                <div className="row">
+                    <div className="col-md-2">
+                        <button type="button" className="btn btn-primary" onClick={() => this.eliminateHero()}>ELIMINATE</button>
+                    </div>
+                    <div className="col-md-2">
+                        <button type="button" className="btn btn-primary" onClick={() => this.reviveHero()}>REVIVE</button>
                     </div>                    
                 </div>
                 <div>

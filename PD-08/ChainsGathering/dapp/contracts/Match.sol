@@ -1,63 +1,79 @@
+/// Based on https://solidity.readthedocs.io/en/develop/natspec-format.html
+
 pragma solidity ^0.6.0;
 pragma experimental ABIEncoderV2;
 
 import "./Heroes.sol";
 import "./ProvableAPI.sol";
 
+/// @title A arena for a 1 on 1 battle
+/// @author Jeffrey Lo-A-Foe
+/// @notice You can use this contract for a simple one on one battle 
+/// @dev All function calls are currently implemented without side effects
 contract HeroesMatch is usingProvable{
 
-   string  public temp;
-   uint256 public priceOfUrl;
+Heroes public deployed;
+string  public temp;
+uint256 public priceOfUrl;
+modifier minAmount(uint _amount){ require(msg.value >= _amount, "MORE STAKE NEEDED"); _;}
 
     struct Match {
-        HeroesClass challenger;
-        HeroesClass opponent;
+        Heroes.HeroesClass challenger;
+        Heroes.HeroesClass opponent;
     }
 
-    struct HeroesClass {
-        string name;
-        uint rarity;
-        SkillClass skill_1;
-        SkillClass skill_2;
-    }
-
-    struct SkillClass {
-        string skill_name;
-        string description;
-        uint min_skill_damage;
-        uint max_skill_damage;
-    }
-
-    event RoundWinner(HeroesClass challenger, HeroesClass opponent, bool result) ;
+    event RoundWinner(Heroes.HeroesClass challenger, Heroes.HeroesClass opponent, bool result) ;
     event ReceivedItem(address player, uint item);
 
     mapping(address => Match) public ownerToMatch;
 
     constructor() public payable{}
 
-   function __callback(bytes32 /* myid prevent warning*/ , string memory result ) override public {
-       if (msg.sender != provable_cbAddress()) revert();
-       temp = result;
-   }
+    function __callback(bytes32 /* myid prevent warning*/ , string memory result ) override public {
+        if (msg.sender != provable_cbAddress()) revert();
+        temp = result;
+    }
 
-   function getTemp() public payable {
-       priceOfUrl = provable_getPrice("URL");
-       require (address(this).balance >= priceOfUrl,
-            "please add some ETH to cover for the query fee");
-       provable_query("URL",
-            "json(http://weerlive.nl/api/json-data-10min.php?key=e9516d6c0a&locatie=DenHaag).liveweer[0].temp");
+    function destroyHero() public{
+        deployed.destroy();
+        deployed = Heroes(address(0));
+    }
+
+    function deployHero() public returns (Heroes) {
+        deployed = new Heroes{salt: 0x00}();
+        return deployed;
+    }
+
+    /// @notice Weather for some fight variation
+    /// @dev extend
+    function getTemp() public payable minAmount(0.02 ether){
+        priceOfUrl = provable_getPrice("URL");
+        require (address(this).balance >= priceOfUrl,
+                "please add some ETH to cover for the query fee");
+        provable_query("URL",
+                "json(http://weerlive.nl/api/json-data-10min.php?key=e9516d6c0a&locatie=DenHaag).liveweer[0].temp");
     }
 
     function getReward(uint item) public{
         emit ReceivedItem(msg.sender, item);
     }
 
+    /// @notice set the fighting arena and say who battles who
+    /// @dev extend
+    /// @param _opponent contains of name skill damage
+    /// @param _challenger contains of name skill damage
+    /// @return _challenger give back what character is made
     //Set the fight arena
-    function initFight(HeroesClass memory _challenger, HeroesClass memory _opponent) public returns (HeroesClass memory) {
+    function initFight(Heroes.HeroesClass memory _challenger, Heroes.HeroesClass memory _opponent) public returns (Heroes.HeroesClass memory) {
         ownerToMatch[msg.sender] = Match(_challenger,_opponent);
         return _challenger;
     }
 
+    /// @notice calculate the winning state
+    /// @dev extend
+    /// @param randomNumberChallenger The numbers are random generated from the dApp
+    /// @param randomNumberOpponent The numbers are random generated from the dApp
+    /// @return did challenger win and how much dmg is done
     //Start the fight and determine damage.
     function beginFight(uint randomNumberChallenger, uint randomNumberOpponent) public returns (bool, uint){
         //No challenger or opponent
@@ -74,7 +90,11 @@ contract HeroesMatch is usingProvable{
             return (false, ownerToMatch[msg.sender].opponent.skill_2.min_skill_damage);
         }
     }
-
+    /// @notice announce the winner in the event log
+    /// @dev extend
+    /// @param randomNumberChallenger The numbers are random generated from the dApp
+    /// @param randomNumberOpponent The numbers are random generated from the dApp
+    /// @return did challenger win
     //Determine who wins the fight
     function didChallengerWin(uint randomNumberChallenger, uint randomNumberOpponent) public returns(bool) {
         if(randomNumberChallenger > randomNumberOpponent) {

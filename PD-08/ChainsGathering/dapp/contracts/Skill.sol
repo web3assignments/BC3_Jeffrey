@@ -16,6 +16,10 @@ contract Skill {
         return skill;
     }
 
+    function destroy() public {
+        selfdestruct(msg.sender);
+    }
+
     constructor() public {}
 
 }
