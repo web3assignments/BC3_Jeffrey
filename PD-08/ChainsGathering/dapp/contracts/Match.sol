@@ -5,16 +5,19 @@ pragma experimental ABIEncoderV2;
 
 import "./Heroes.sol";
 import "./ProvableAPI.sol";
+import "../../node_modules/@openzeppelin/upgrades-core/contracts/Initializable.sol";
 
 /// @title A arena for a 1 on 1 battle
 /// @author Jeffrey Lo-A-Foe
 /// @notice You can use this contract for a simple one on one battle 
 /// @dev All function calls are currently implemented without side effects
-contract HeroesMatch is usingProvable{
+contract HeroesMatch is usingProvable, Initializable{
 
 Heroes public deployed;
 string  public temp;
 uint256 public priceOfUrl;
+string public season;
+
 modifier minAmount(uint _amount){ require(msg.value >= _amount, "MORE STAKE NEEDED"); _;}
 
     struct Match {
@@ -32,6 +35,14 @@ modifier minAmount(uint _amount){ require(msg.value >= _amount, "MORE STAKE NEED
     function __callback(bytes32 /* myid prevent warning*/ , string memory result ) override public {
         if (msg.sender != provable_cbAddress()) revert();
         temp = result;
+    }
+
+    function initialize(string memory _season) public initializer {
+        season = _season;
+    }
+
+    function setSeason(string memory _season) public {
+        season = _season;
     }
 
     function destroyHero() public{

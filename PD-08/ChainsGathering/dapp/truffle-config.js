@@ -1,5 +1,6 @@
 const { pathExists } = require('fs-extra');
 const PrivateKeyProvider = require('truffle-privatekey-provider');
+const trufflePluginVerify = require('truffle-plugin-verify');
 var HDWalletProvider = require('truffle-hdwallet-provider');
 var mnemonic = "three certain prepare isolate matter jungle climb spell thank crisp diesel job";
 
@@ -45,5 +46,11 @@ module.exports = {
         },
       }
     }
+  },
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    etherscan: '6N9HKHEWX7G7YXUHWVN7YYX1HZ7E7534WB'
   }
 };

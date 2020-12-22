@@ -81,23 +81,23 @@
   "bytecode": "0x608060405234801561001057600080fd5b50610429806100206000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c8063349b95911461003b57806383197ef01461006b575b600080fd5b610055600480360381019061005091906101f5565b610075565b60405161006291906102e8565b60405180910390f35b6100736100a7565b005b61007d6100c0565b600a826040018181510191508181525050600a826060018181510191508181525050819050919050565b3373ffffffffffffffffffffffffffffffffffffffff16ff5b6040518060800160405280606081526020016060815260200160008152602001600081525090565b600082601f8301126100f957600080fd5b813561010c61010782610337565b61030a565b9150808252602083016020830185838301111561012857600080fd5b610133838284610389565b50505092915050565b60006080828403121561014e57600080fd5b610158608061030a565b9050600082013567ffffffffffffffff81111561017457600080fd5b610180848285016100e8565b600083015250602082013567ffffffffffffffff8111156101a057600080fd5b6101ac848285016100e8565b60208301525060406101c0848285016101e0565b60408301525060606101d4848285016101e0565b60608301525092915050565b6000813590506101ef816103dc565b92915050565b60006020828403121561020757600080fd5b600082013567ffffffffffffffff81111561022157600080fd5b61022d8482850161013c565b91505092915050565b600061024182610363565b61024b818561036e565b935061025b818560208601610398565b610264816103cb565b840191505092915050565b6000608083016000830151848203600086015261028c8282610236565b915050602083015184820360208601526102a68282610236565b91505060408301516102bb60408601826102d9565b5060608301516102ce60608601826102d9565b508091505092915050565b6102e28161037f565b82525050565b60006020820190508181036000830152610302818461026f565b905092915050565b6000604051905081810181811067ffffffffffffffff8211171561032d57600080fd5b8060405250919050565b600067ffffffffffffffff82111561034e57600080fd5b601f19601f8301169050602081019050919050565b600081519050919050565b600082825260208201905092915050565b6000819050919050565b82818337600083830152505050565b60005b838110156103b657808201518184015260208101905061039b565b838111156103c5576000848401525b50505050565b6000601f19601f8301169050919050565b6103e58161037f565b81146103f057600080fd5b5056fea2646970667358221220e5a76f41876c9223382e53bbc1c80865588f217e18c2a537127adbc79ad6eb3c64736f6c634300060c0033",
   "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c8063349b95911461003b57806383197ef01461006b575b600080fd5b610055600480360381019061005091906101f5565b610075565b60405161006291906102e8565b60405180910390f35b6100736100a7565b005b61007d6100c0565b600a826040018181510191508181525050600a826060018181510191508181525050819050919050565b3373ffffffffffffffffffffffffffffffffffffffff16ff5b6040518060800160405280606081526020016060815260200160008152602001600081525090565b600082601f8301126100f957600080fd5b813561010c61010782610337565b61030a565b9150808252602083016020830185838301111561012857600080fd5b610133838284610389565b50505092915050565b60006080828403121561014e57600080fd5b610158608061030a565b9050600082013567ffffffffffffffff81111561017457600080fd5b610180848285016100e8565b600083015250602082013567ffffffffffffffff8111156101a057600080fd5b6101ac848285016100e8565b60208301525060406101c0848285016101e0565b60408301525060606101d4848285016101e0565b60608301525092915050565b6000813590506101ef816103dc565b92915050565b60006020828403121561020757600080fd5b600082013567ffffffffffffffff81111561022157600080fd5b61022d8482850161013c565b91505092915050565b600061024182610363565b61024b818561036e565b935061025b818560208601610398565b610264816103cb565b840191505092915050565b6000608083016000830151848203600086015261028c8282610236565b915050602083015184820360208601526102a68282610236565b91505060408301516102bb60408601826102d9565b5060608301516102ce60608601826102d9565b508091505092915050565b6102e28161037f565b82525050565b60006020820190508181036000830152610302818461026f565b905092915050565b6000604051905081810181811067ffffffffffffffff8211171561032d57600080fd5b8060405250919050565b600067ffffffffffffffff82111561034e57600080fd5b601f19601f8301169050602081019050919050565b600081519050919050565b600082825260208201905092915050565b6000819050919050565b82818337600083830152505050565b60005b838110156103b657808201518184015260208101905061039b565b838111156103c5576000848401525b50505050565b6000601f19601f8301169050919050565b6103e58161037f565b81146103f057600080fd5b5056fea2646970667358221220e5a76f41876c9223382e53bbc1c80865588f217e18c2a537127adbc79ad6eb3c64736f6c634300060c0033",
   "immutableReferences": {},
-  "sourceMap": "59:468:9:-:0;;;501:23;;;;;;;;;;59:468;;;;;;",
-  "deployedSourceMap": "59:468:9:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;229:193;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;428:67;;;:::i;:::-;;229:193;298:17;;:::i;:::-;353:2;327:5;:22;;:28;;;;;;;;;;;391:2;365:5;:22;;:28;;;;;;;;;;;410:5;403:12;;229:193;;;:::o;428:67::-;477:10;464:24;;;-1:-1:-1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;6:442::-;;108:3;101:4;93:6;89:17;85:27;75:2;;126:1;123;116:12;75:2;163:6;150:20;185:65;200:49;242:6;200:49;:::i;:::-;185:65;:::i;:::-;176:74;;270:6;263:5;256:21;306:4;298:6;294:17;339:4;332:5;328:16;374:3;365:6;360:3;356:16;353:25;350:2;;;391:1;388;381:12;350:2;401:41;435:6;430:3;425;401:41;:::i;:::-;68:380;;;;;;;:::o;486:988::-;;604:4;592:9;587:3;583:19;579:30;576:2;;;622:1;619;612:12;576:2;640:20;655:4;640:20;:::i;:::-;631:29;;744:1;733:9;729:17;716:31;767:18;759:6;756:30;753:2;;;799:1;796;789:12;753:2;834:59;889:3;880:6;869:9;865:22;834:59;:::i;:::-;827:4;820:5;816:16;809:85;670:235;990:2;979:9;975:18;962:32;1014:18;1006:6;1003:30;1000:2;;;1046:1;1043;1036:12;1000:2;1081:59;1136:3;1127:6;1116:9;1112:22;1081:59;:::i;:::-;1074:4;1067:5;1063:16;1056:85;915:237;1214:2;1247:49;1292:3;1283:6;1272:9;1268:22;1247:49;:::i;:::-;1240:4;1233:5;1229:16;1222:75;1162:146;1370:2;1403:49;1448:3;1439:6;1428:9;1424:22;1403:49;:::i;:::-;1396:4;1389:5;1385:16;1378:75;1318:146;570:904;;;;:::o;1481:130::-;;1561:6;1548:20;1539:29;;1573:33;1600:5;1573:33;:::i;:::-;1533:78;;;;:::o;1618:385::-;;1751:2;1739:9;1730:7;1726:23;1722:32;1719:2;;;1767:1;1764;1757:12;1719:2;1830:1;1819:9;1815:17;1802:31;1853:18;1845:6;1842:30;1839:2;;;1885:1;1882;1875:12;1839:2;1905:82;1979:7;1970:6;1959:9;1955:22;1905:82;:::i;:::-;1895:92;;1781:212;1713:290;;;;:::o;2010:327::-;;2112:39;2145:5;2112:39;:::i;:::-;2163:61;2217:6;2212:3;2163:61;:::i;:::-;2156:68;;2229:52;2274:6;2269:3;2262:4;2255:5;2251:16;2229:52;:::i;:::-;2302:29;2324:6;2302:29;:::i;:::-;2297:3;2293:39;2286:46;;2092:245;;;;;:::o;2401:1000::-;;2560:4;2555:3;2551:14;2649:4;2642:5;2638:16;2632:23;2701:3;2695:4;2691:14;2684:4;2679:3;2675:14;2668:38;2721:73;2789:4;2775:12;2721:73;:::i;:::-;2713:81;;2580:226;2886:4;2879:5;2875:16;2869:23;2938:3;2932:4;2928:14;2921:4;2916:3;2912:14;2905:38;2958:73;3026:4;3012:12;2958:73;:::i;:::-;2950:81;;2816:227;3128:4;3121:5;3117:16;3111:23;3140:63;3197:4;3192:3;3188:14;3174:12;3140:63;:::i;:::-;3053:156;3294:4;3287:5;3283:16;3277:23;3306:63;3363:4;3358:3;3354:14;3340:12;3306:63;:::i;:::-;3219:156;3392:4;3385:11;;2533:868;;;;;:::o;3408:103::-;3481:24;3499:5;3481:24;:::i;:::-;3476:3;3469:37;3463:48;;:::o;3518:386::-;;3703:2;3692:9;3688:18;3680:26;;3753:9;3747:4;3743:20;3739:1;3728:9;3724:17;3717:47;3778:116;3889:4;3880:6;3778:116;:::i;:::-;3770:124;;3674:230;;;;:::o;3911:256::-;;3973:2;3967:9;3957:19;;4011:4;4003:6;3999:17;4110:6;4098:10;4095:22;4074:18;4062:10;4059:34;4056:62;4053:2;;;4131:1;4128;4121:12;4053:2;4151:10;4147:2;4140:22;3951:216;;;;:::o;4174:322::-;;4318:18;4310:6;4307:30;4304:2;;;4350:1;4347;4340:12;4304:2;4417:4;4413:9;4406:4;4398:6;4394:17;4390:33;4382:41;;4481:4;4475;4471:15;4463:23;;4241:255;;;:::o;4503:122::-;;4597:5;4591:12;4581:22;;4562:63;;;:::o;4633:153::-;;4738:6;4733:3;4726:19;4775:4;4770:3;4766:14;4751:29;;4719:67;;;;:::o;4794:72::-;;4856:5;4845:16;;4839:27;;;:::o;4874:145::-;4955:6;4950:3;4945;4932:30;5011:1;5002:6;4997:3;4993:16;4986:27;4925:94;;;:::o;5028:268::-;5093:1;5100:101;5114:6;5111:1;5108:13;5100:101;;;5190:1;5185:3;5181:11;5175:18;5171:1;5166:3;5162:11;5155:39;5136:2;5133:1;5129:10;5124:15;;5100:101;;;5216:6;5213:1;5210:13;5207:2;;;5281:1;5272:6;5267:3;5263:16;5256:27;5207:2;5077:219;;;;:::o;5304:97::-;;5392:2;5388:7;5383:2;5376:5;5372:14;5368:28;5358:38;;5352:49;;;:::o;5409:117::-;5478:24;5496:5;5478:24;:::i;:::-;5471:5;5468:35;5458:2;;5517:1;5514;5507:12;5458:2;5452:74;:::o",
+  "sourceMap": "59:468:5:-:0;;;501:23;;;;;;;;;;59:468;;;;;;",
+  "deployedSourceMap": "59:468:5:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;229:193;;;;;;;;;;;;;:::i;:::-;;:::i;:::-;;;;;;;:::i;:::-;;;;;;;;428:67;;;:::i;:::-;;229:193;298:17;;:::i;:::-;353:2;327:5;:22;;:28;;;;;;;;;;;391:2;365:5;:22;;:28;;;;;;;;;;;410:5;403:12;;229:193;;;:::o;428:67::-;477:10;464:24;;;-1:-1:-1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;6:442::-;;108:3;101:4;93:6;89:17;85:27;75:2;;126:1;123;116:12;75:2;163:6;150:20;185:65;200:49;242:6;200:49;:::i;:::-;185:65;:::i;:::-;176:74;;270:6;263:5;256:21;306:4;298:6;294:17;339:4;332:5;328:16;374:3;365:6;360:3;356:16;353:25;350:2;;;391:1;388;381:12;350:2;401:41;435:6;430:3;425;401:41;:::i;:::-;68:380;;;;;;;:::o;486:987::-;;603:4;591:9;586:3;582:19;578:30;575:2;;;621:1;618;611:12;575:2;639:20;654:4;639:20;:::i;:::-;630:29;;743:1;732:9;728:17;715:31;766:18;758:6;755:30;752:2;;;798:1;795;788:12;752:2;833:59;888:3;879:6;868:9;864:22;833:59;:::i;:::-;826:4;819:5;815:16;808:85;669:235;989:2;978:9;974:18;961:32;1013:18;1005:6;1002:30;999:2;;;1045:1;1042;1035:12;999:2;1080:59;1135:3;1126:6;1115:9;1111:22;1080:59;:::i;:::-;1073:4;1066:5;1062:16;1055:85;914:237;1213:2;1246:49;1291:3;1282:6;1271:9;1267:22;1246:49;:::i;:::-;1239:4;1232:5;1228:16;1221:75;1161:146;1369:2;1402:49;1447:3;1438:6;1427:9;1423:22;1402:49;:::i;:::-;1395:4;1388:5;1384:16;1377:75;1317:146;569:904;;;;:::o;1480:130::-;;1560:6;1547:20;1538:29;;1572:33;1599:5;1572:33;:::i;:::-;1532:78;;;;:::o;1617:383::-;;1749:2;1737:9;1728:7;1724:23;1720:32;1717:2;;;1765:1;1762;1755:12;1717:2;1828:1;1817:9;1813:17;1800:31;1851:18;1843:6;1840:30;1837:2;;;1883:1;1880;1873:12;1837:2;1903:81;1976:7;1967:6;1956:9;1952:22;1903:81;:::i;:::-;1893:91;;1779:211;1711:289;;;;:::o;2007:327::-;;2109:39;2142:5;2109:39;:::i;:::-;2160:61;2214:6;2209:3;2160:61;:::i;:::-;2153:68;;2226:52;2271:6;2266:3;2259:4;2252:5;2248:16;2226:52;:::i;:::-;2299:29;2321:6;2299:29;:::i;:::-;2294:3;2290:39;2283:46;;2089:245;;;;;:::o;2398:998::-;;2555:4;2550:3;2546:14;2644:4;2637:5;2633:16;2627:23;2696:3;2690:4;2686:14;2679:4;2674:3;2670:14;2663:38;2716:73;2784:4;2770:12;2716:73;:::i;:::-;2708:81;;2575:226;2881:4;2874:5;2870:16;2864:23;2933:3;2927:4;2923:14;2916:4;2911:3;2907:14;2900:38;2953:73;3021:4;3007:12;2953:73;:::i;:::-;2945:81;;2811:227;3123:4;3116:5;3112:16;3106:23;3135:63;3192:4;3187:3;3183:14;3169:12;3135:63;:::i;:::-;3048:156;3289:4;3282:5;3278:16;3272:23;3301:63;3358:4;3353:3;3349:14;3335:12;3301:63;:::i;:::-;3214:156;3387:4;3380:11;;2528:868;;;;;:::o;3403:103::-;3476:24;3494:5;3476:24;:::i;:::-;3471:3;3464:37;3458:48;;:::o;3513:382::-;;3696:2;3685:9;3681:18;3673:26;;3746:9;3740:4;3736:20;3732:1;3721:9;3717:17;3710:47;3771:114;3880:4;3871:6;3771:114;:::i;:::-;3763:122;;3667:228;;;;:::o;3902:256::-;;3964:2;3958:9;3948:19;;4002:4;3994:6;3990:17;4101:6;4089:10;4086:22;4065:18;4053:10;4050:34;4047:62;4044:2;;;4122:1;4119;4112:12;4044:2;4142:10;4138:2;4131:22;3942:216;;;;:::o;4165:322::-;;4309:18;4301:6;4298:30;4295:2;;;4341:1;4338;4331:12;4295:2;4408:4;4404:9;4397:4;4389:6;4385:17;4381:33;4373:41;;4472:4;4466;4462:15;4454:23;;4232:255;;;:::o;4494:122::-;;4588:5;4582:12;4572:22;;4553:63;;;:::o;4624:153::-;;4729:6;4724:3;4717:19;4766:4;4761:3;4757:14;4742:29;;4710:67;;;;:::o;4785:72::-;;4847:5;4836:16;;4830:27;;;:::o;4865:145::-;4946:6;4941:3;4936;4923:30;5002:1;4993:6;4988:3;4984:16;4977:27;4916:94;;;:::o;5019:268::-;5084:1;5091:101;5105:6;5102:1;5099:13;5091:101;;;5181:1;5176:3;5172:11;5166:18;5162:1;5157:3;5153:11;5146:39;5127:2;5124:1;5120:10;5115:15;;5091:101;;;5207:6;5204:1;5201:13;5198:2;;;5272:1;5263:6;5258:3;5254:16;5247:27;5198:2;5068:219;;;;:::o;5295:97::-;;5383:2;5379:7;5374:2;5367:5;5363:14;5359:28;5349:38;;5343:49;;;:::o;5400:117::-;5469:24;5487:5;5469:24;:::i;:::-;5462:5;5459:35;5449:2;;5508:1;5505;5498:12;5449:2;5443:74;:::o",
   "source": "pragma solidity ^0.6.0;\npragma experimental ABIEncoderV2;\n\ncontract Skill {\n\n    struct SkillClass {\n        string skill_name;\n        string description;\n        uint min_skill_damage;\n        uint max_skill_damage;\n    }\n\n    function increaseSkillDamage(SkillClass memory skill) public returns(SkillClass memory) {\n        skill.min_skill_damage += 10;\n        skill.max_skill_damage += 10;\n        return skill;\n    }\n\n    function destroy() public {\n        selfdestruct(msg.sender);\n    }\n\n    constructor() public {}\n\n}",
   "sourcePath": "/home/jeffrey/token/inleveren/BC3_Jeffrey/PD-08/ChainsGathering/dapp/contracts/Skill.sol",
   "ast": {
     "absolutePath": "/home/jeffrey/token/inleveren/BC3_Jeffrey/PD-08/ChainsGathering/dapp/contracts/Skill.sol",
     "exportedSymbols": {
       "Skill": [
-        13752
+        6995
       ]
     },
-    "id": 13753,
+    "id": 6996,
     "license": null,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 13706,
+        "id": 6949,
         "literals": [
           "solidity",
           "^",
@@ -105,16 +105,16 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:9"
+        "src": "0:23:5"
       },
       {
-        "id": 13707,
+        "id": 6950,
         "literals": [
           "experimental",
           "ABIEncoderV2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "24:33:9"
+        "src": "24:33:5"
       },
       {
         "abstract": false,
@@ -123,26 +123,26 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 13752,
+        "id": 6995,
         "linearizedBaseContracts": [
-          13752
+          6995
         ],
         "name": "Skill",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "Skill.SkillClass",
-            "id": 13716,
+            "id": 6959,
             "members": [
               {
                 "constant": false,
-                "id": 13709,
+                "id": 6952,
                 "mutability": "mutable",
                 "name": "skill_name",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "109:17:9",
+                "scope": 6959,
+                "src": "109:17:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -150,10 +150,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 13708,
+                  "id": 6951,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "109:6:9",
+                  "src": "109:6:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -164,13 +164,13 @@
               },
               {
                 "constant": false,
-                "id": 13711,
+                "id": 6954,
                 "mutability": "mutable",
                 "name": "description",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "136:18:9",
+                "scope": 6959,
+                "src": "136:18:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -178,10 +178,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 13710,
+                  "id": 6953,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "136:6:9",
+                  "src": "136:6:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -192,13 +192,13 @@
               },
               {
                 "constant": false,
-                "id": 13713,
+                "id": 6956,
                 "mutability": "mutable",
                 "name": "min_skill_damage",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "164:21:9",
+                "scope": 6959,
+                "src": "164:21:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -206,10 +206,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 13712,
+                  "id": 6955,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "164:4:9",
+                  "src": "164:4:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -220,13 +220,13 @@
               },
               {
                 "constant": false,
-                "id": 13715,
+                "id": 6958,
                 "mutability": "mutable",
                 "name": "max_skill_damage",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "195:21:9",
+                "scope": 6959,
+                "src": "195:21:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -234,10 +234,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 13714,
+                  "id": 6957,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "195:4:9",
+                  "src": "195:4:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -249,20 +249,20 @@
             ],
             "name": "SkillClass",
             "nodeType": "StructDefinition",
-            "scope": 13752,
-            "src": "81:142:9",
+            "scope": 6995,
+            "src": "81:142:5",
             "visibility": "public"
           },
           {
             "body": {
-              "id": 13737,
+              "id": 6980,
               "nodeType": "Block",
-              "src": "317:105:9",
+              "src": "317:105:5",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 13727,
+                    "id": 6970,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -271,26 +271,26 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 13723,
+                        "id": 6966,
                         "name": "skill",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13718,
-                        "src": "327:5:9",
+                        "referencedDeclaration": 6961,
+                        "src": "327:5:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                          "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                           "typeString": "struct Skill.SkillClass memory"
                         }
                       },
-                      "id": 13725,
+                      "id": 6968,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "min_skill_damage",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13713,
-                      "src": "327:22:9",
+                      "referencedDeclaration": 6956,
+                      "src": "327:22:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -301,14 +301,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "3130",
-                      "id": 13726,
+                      "id": 6969,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "353:2:9",
+                      "src": "353:2:5",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_10_by_1",
@@ -316,20 +316,20 @@
                       },
                       "value": "10"
                     },
-                    "src": "327:28:9",
+                    "src": "327:28:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 13728,
+                  "id": 6971,
                   "nodeType": "ExpressionStatement",
-                  "src": "327:28:9"
+                  "src": "327:28:5"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 13733,
+                    "id": 6976,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -338,26 +338,26 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 13729,
+                        "id": 6972,
                         "name": "skill",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13718,
-                        "src": "365:5:9",
+                        "referencedDeclaration": 6961,
+                        "src": "365:5:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                          "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                           "typeString": "struct Skill.SkillClass memory"
                         }
                       },
-                      "id": 13731,
+                      "id": 6974,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "max_skill_damage",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13715,
-                      "src": "365:22:9",
+                      "referencedDeclaration": 6958,
+                      "src": "365:22:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -368,14 +368,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "3130",
-                      "id": 13732,
+                      "id": 6975,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "391:2:9",
+                      "src": "391:2:5",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_10_by_1",
@@ -383,40 +383,40 @@
                       },
                       "value": "10"
                     },
-                    "src": "365:28:9",
+                    "src": "365:28:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 13734,
+                  "id": 6977,
                   "nodeType": "ExpressionStatement",
-                  "src": "365:28:9"
+                  "src": "365:28:5"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 13735,
+                    "id": 6978,
                     "name": "skill",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 13718,
-                    "src": "410:5:9",
+                    "referencedDeclaration": 6961,
+                    "src": "410:5:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                      "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                       "typeString": "struct Skill.SkillClass memory"
                     }
                   },
-                  "functionReturnParameters": 13722,
-                  "id": 13736,
+                  "functionReturnParameters": 6965,
+                  "id": 6979,
                   "nodeType": "Return",
-                  "src": "403:12:9"
+                  "src": "403:12:5"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "349b9591",
-            "id": 13738,
+            "id": 6981,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -424,33 +424,33 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 13719,
+              "id": 6962,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 13718,
+                  "id": 6961,
                   "mutability": "mutable",
                   "name": "skill",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 13738,
-                  "src": "258:23:9",
+                  "scope": 6981,
+                  "src": "258:23:5",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                    "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                     "typeString": "struct Skill.SkillClass"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 13717,
+                    "id": 6960,
                     "name": "SkillClass",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 13716,
-                    "src": "258:10:9",
+                    "referencedDeclaration": 6959,
+                    "src": "258:10:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillClass_$13716_storage_ptr",
+                      "typeIdentifier": "t_struct$_SkillClass_$6959_storage_ptr",
                       "typeString": "struct Skill.SkillClass"
                     }
                   },
@@ -458,36 +458,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "257:25:9"
+              "src": "257:25:5"
             },
             "returnParameters": {
-              "id": 13722,
+              "id": 6965,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 13721,
+                  "id": 6964,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 13738,
-                  "src": "298:17:9",
+                  "scope": 6981,
+                  "src": "298:17:5",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                    "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                     "typeString": "struct Skill.SkillClass"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 13720,
+                    "id": 6963,
                     "name": "SkillClass",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 13716,
-                    "src": "298:10:9",
+                    "referencedDeclaration": 6959,
+                    "src": "298:10:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillClass_$13716_storage_ptr",
+                      "typeIdentifier": "t_struct$_SkillClass_$6959_storage_ptr",
                       "typeString": "struct Skill.SkillClass"
                     }
                   },
@@ -495,19 +495,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "297:19:9"
+              "src": "297:19:5"
             },
-            "scope": 13752,
-            "src": "229:193:9",
+            "scope": 6995,
+            "src": "229:193:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 13746,
+              "id": 6989,
               "nodeType": "Block",
-              "src": "454:41:9",
+              "src": "454:41:5",
               "statements": [
                 {
                   "expression": {
@@ -517,18 +517,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 13742,
+                          "id": 6985,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": -15,
-                          "src": "477:3:9",
+                          "src": "477:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 13743,
+                        "id": 6986,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -536,7 +536,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "477:10:9",
+                        "src": "477:10:5",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -550,18 +550,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 13741,
+                      "id": 6984,
                       "name": "selfdestruct",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": -21,
-                      "src": "464:12:9",
+                      "src": "464:12:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_selfdestruct_nonpayable$_t_address_payable_$returns$__$",
                         "typeString": "function (address payable)"
                       }
                     },
-                    "id": 13744,
+                    "id": 6987,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -569,22 +569,22 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "464:24:9",
+                    "src": "464:24:5",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 13745,
+                  "id": 6988,
                   "nodeType": "ExpressionStatement",
-                  "src": "464:24:9"
+                  "src": "464:24:5"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "83197ef0",
-            "id": 13747,
+            "id": 6990,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -592,32 +592,32 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 13739,
+              "id": 6982,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "444:2:9"
+              "src": "444:2:5"
             },
             "returnParameters": {
-              "id": 13740,
+              "id": 6983,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "454:0:9"
+              "src": "454:0:5"
             },
-            "scope": 13752,
-            "src": "428:67:9",
+            "scope": 6995,
+            "src": "428:67:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 13750,
+              "id": 6993,
               "nodeType": "Block",
-              "src": "522:2:9",
+              "src": "522:2:5",
               "statements": []
             },
             "documentation": null,
-            "id": 13751,
+            "id": 6994,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -625,43 +625,43 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 13748,
+              "id": 6991,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "512:2:9"
+              "src": "512:2:5"
             },
             "returnParameters": {
-              "id": 13749,
+              "id": 6992,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "522:0:9"
+              "src": "522:0:5"
             },
-            "scope": 13752,
-            "src": "501:23:9",
+            "scope": 6995,
+            "src": "501:23:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 13753,
-        "src": "59:468:9"
+        "scope": 6996,
+        "src": "59:468:5"
       }
     ],
-    "src": "0:527:9"
+    "src": "0:527:5"
   },
   "legacyAST": {
     "absolutePath": "/home/jeffrey/token/inleveren/BC3_Jeffrey/PD-08/ChainsGathering/dapp/contracts/Skill.sol",
     "exportedSymbols": {
       "Skill": [
-        13752
+        6995
       ]
     },
-    "id": 13753,
+    "id": 6996,
     "license": null,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 13706,
+        "id": 6949,
         "literals": [
           "solidity",
           "^",
@@ -669,16 +669,16 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:9"
+        "src": "0:23:5"
       },
       {
-        "id": 13707,
+        "id": 6950,
         "literals": [
           "experimental",
           "ABIEncoderV2"
         ],
         "nodeType": "PragmaDirective",
-        "src": "24:33:9"
+        "src": "24:33:5"
       },
       {
         "abstract": false,
@@ -687,26 +687,26 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 13752,
+        "id": 6995,
         "linearizedBaseContracts": [
-          13752
+          6995
         ],
         "name": "Skill",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "canonicalName": "Skill.SkillClass",
-            "id": 13716,
+            "id": 6959,
             "members": [
               {
                 "constant": false,
-                "id": 13709,
+                "id": 6952,
                 "mutability": "mutable",
                 "name": "skill_name",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "109:17:9",
+                "scope": 6959,
+                "src": "109:17:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -714,10 +714,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 13708,
+                  "id": 6951,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "109:6:9",
+                  "src": "109:6:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -728,13 +728,13 @@
               },
               {
                 "constant": false,
-                "id": 13711,
+                "id": 6954,
                 "mutability": "mutable",
                 "name": "description",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "136:18:9",
+                "scope": 6959,
+                "src": "136:18:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -742,10 +742,10 @@
                   "typeString": "string"
                 },
                 "typeName": {
-                  "id": 13710,
+                  "id": 6953,
                   "name": "string",
                   "nodeType": "ElementaryTypeName",
-                  "src": "136:6:9",
+                  "src": "136:6:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_string_storage_ptr",
                     "typeString": "string"
@@ -756,13 +756,13 @@
               },
               {
                 "constant": false,
-                "id": 13713,
+                "id": 6956,
                 "mutability": "mutable",
                 "name": "min_skill_damage",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "164:21:9",
+                "scope": 6959,
+                "src": "164:21:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -770,10 +770,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 13712,
+                  "id": 6955,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "164:4:9",
+                  "src": "164:4:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -784,13 +784,13 @@
               },
               {
                 "constant": false,
-                "id": 13715,
+                "id": 6958,
                 "mutability": "mutable",
                 "name": "max_skill_damage",
                 "nodeType": "VariableDeclaration",
                 "overrides": null,
-                "scope": 13716,
-                "src": "195:21:9",
+                "scope": 6959,
+                "src": "195:21:5",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -798,10 +798,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 13714,
+                  "id": 6957,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "195:4:9",
+                  "src": "195:4:5",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -813,20 +813,20 @@
             ],
             "name": "SkillClass",
             "nodeType": "StructDefinition",
-            "scope": 13752,
-            "src": "81:142:9",
+            "scope": 6995,
+            "src": "81:142:5",
             "visibility": "public"
           },
           {
             "body": {
-              "id": 13737,
+              "id": 6980,
               "nodeType": "Block",
-              "src": "317:105:9",
+              "src": "317:105:5",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 13727,
+                    "id": 6970,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -835,26 +835,26 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 13723,
+                        "id": 6966,
                         "name": "skill",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13718,
-                        "src": "327:5:9",
+                        "referencedDeclaration": 6961,
+                        "src": "327:5:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                          "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                           "typeString": "struct Skill.SkillClass memory"
                         }
                       },
-                      "id": 13725,
+                      "id": 6968,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "min_skill_damage",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13713,
-                      "src": "327:22:9",
+                      "referencedDeclaration": 6956,
+                      "src": "327:22:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -865,14 +865,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "3130",
-                      "id": 13726,
+                      "id": 6969,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "353:2:9",
+                      "src": "353:2:5",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_10_by_1",
@@ -880,20 +880,20 @@
                       },
                       "value": "10"
                     },
-                    "src": "327:28:9",
+                    "src": "327:28:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 13728,
+                  "id": 6971,
                   "nodeType": "ExpressionStatement",
-                  "src": "327:28:9"
+                  "src": "327:28:5"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 13733,
+                    "id": 6976,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -902,26 +902,26 @@
                       "argumentTypes": null,
                       "expression": {
                         "argumentTypes": null,
-                        "id": 13729,
+                        "id": 6972,
                         "name": "skill",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 13718,
-                        "src": "365:5:9",
+                        "referencedDeclaration": 6961,
+                        "src": "365:5:5",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                          "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                           "typeString": "struct Skill.SkillClass memory"
                         }
                       },
-                      "id": 13731,
+                      "id": 6974,
                       "isConstant": false,
                       "isLValue": true,
                       "isPure": false,
                       "lValueRequested": true,
                       "memberName": "max_skill_damage",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 13715,
-                      "src": "365:22:9",
+                      "referencedDeclaration": 6958,
+                      "src": "365:22:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -932,14 +932,14 @@
                     "rightHandSide": {
                       "argumentTypes": null,
                       "hexValue": "3130",
-                      "id": 13732,
+                      "id": 6975,
                       "isConstant": false,
                       "isLValue": false,
                       "isPure": true,
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "391:2:9",
+                      "src": "391:2:5",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_10_by_1",
@@ -947,40 +947,40 @@
                       },
                       "value": "10"
                     },
-                    "src": "365:28:9",
+                    "src": "365:28:5",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
                     }
                   },
-                  "id": 13734,
+                  "id": 6977,
                   "nodeType": "ExpressionStatement",
-                  "src": "365:28:9"
+                  "src": "365:28:5"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 13735,
+                    "id": 6978,
                     "name": "skill",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 13718,
-                    "src": "410:5:9",
+                    "referencedDeclaration": 6961,
+                    "src": "410:5:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                      "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                       "typeString": "struct Skill.SkillClass memory"
                     }
                   },
-                  "functionReturnParameters": 13722,
-                  "id": 13736,
+                  "functionReturnParameters": 6965,
+                  "id": 6979,
                   "nodeType": "Return",
-                  "src": "403:12:9"
+                  "src": "403:12:5"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "349b9591",
-            "id": 13738,
+            "id": 6981,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -988,33 +988,33 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 13719,
+              "id": 6962,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 13718,
+                  "id": 6961,
                   "mutability": "mutable",
                   "name": "skill",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 13738,
-                  "src": "258:23:9",
+                  "scope": 6981,
+                  "src": "258:23:5",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                    "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                     "typeString": "struct Skill.SkillClass"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 13717,
+                    "id": 6960,
                     "name": "SkillClass",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 13716,
-                    "src": "258:10:9",
+                    "referencedDeclaration": 6959,
+                    "src": "258:10:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillClass_$13716_storage_ptr",
+                      "typeIdentifier": "t_struct$_SkillClass_$6959_storage_ptr",
                       "typeString": "struct Skill.SkillClass"
                     }
                   },
@@ -1022,36 +1022,36 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "257:25:9"
+              "src": "257:25:5"
             },
             "returnParameters": {
-              "id": 13722,
+              "id": 6965,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 13721,
+                  "id": 6964,
                   "mutability": "mutable",
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "overrides": null,
-                  "scope": 13738,
-                  "src": "298:17:9",
+                  "scope": 6981,
+                  "src": "298:17:5",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_SkillClass_$13716_memory_ptr",
+                    "typeIdentifier": "t_struct$_SkillClass_$6959_memory_ptr",
                     "typeString": "struct Skill.SkillClass"
                   },
                   "typeName": {
                     "contractScope": null,
-                    "id": 13720,
+                    "id": 6963,
                     "name": "SkillClass",
                     "nodeType": "UserDefinedTypeName",
-                    "referencedDeclaration": 13716,
-                    "src": "298:10:9",
+                    "referencedDeclaration": 6959,
+                    "src": "298:10:5",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_SkillClass_$13716_storage_ptr",
+                      "typeIdentifier": "t_struct$_SkillClass_$6959_storage_ptr",
                       "typeString": "struct Skill.SkillClass"
                     }
                   },
@@ -1059,19 +1059,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "297:19:9"
+              "src": "297:19:5"
             },
-            "scope": 13752,
-            "src": "229:193:9",
+            "scope": 6995,
+            "src": "229:193:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 13746,
+              "id": 6989,
               "nodeType": "Block",
-              "src": "454:41:9",
+              "src": "454:41:5",
               "statements": [
                 {
                   "expression": {
@@ -1081,18 +1081,18 @@
                         "argumentTypes": null,
                         "expression": {
                           "argumentTypes": null,
-                          "id": 13742,
+                          "id": 6985,
                           "name": "msg",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": -15,
-                          "src": "477:3:9",
+                          "src": "477:3:5",
                           "typeDescriptions": {
                             "typeIdentifier": "t_magic_message",
                             "typeString": "msg"
                           }
                         },
-                        "id": 13743,
+                        "id": 6986,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -1100,7 +1100,7 @@
                         "memberName": "sender",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": null,
-                        "src": "477:10:9",
+                        "src": "477:10:5",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address_payable",
                           "typeString": "address payable"
@@ -1114,18 +1114,18 @@
                           "typeString": "address payable"
                         }
                       ],
-                      "id": 13741,
+                      "id": 6984,
                       "name": "selfdestruct",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": -21,
-                      "src": "464:12:9",
+                      "src": "464:12:5",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_selfdestruct_nonpayable$_t_address_payable_$returns$__$",
                         "typeString": "function (address payable)"
                       }
                     },
-                    "id": 13744,
+                    "id": 6987,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -1133,22 +1133,22 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "464:24:9",
+                    "src": "464:24:5",
                     "tryCall": false,
                     "typeDescriptions": {
                       "typeIdentifier": "t_tuple$__$",
                       "typeString": "tuple()"
                     }
                   },
-                  "id": 13745,
+                  "id": 6988,
                   "nodeType": "ExpressionStatement",
-                  "src": "464:24:9"
+                  "src": "464:24:5"
                 }
               ]
             },
             "documentation": null,
             "functionSelector": "83197ef0",
-            "id": 13747,
+            "id": 6990,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
@@ -1156,32 +1156,32 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 13739,
+              "id": 6982,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "444:2:9"
+              "src": "444:2:5"
             },
             "returnParameters": {
-              "id": 13740,
+              "id": 6983,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "454:0:9"
+              "src": "454:0:5"
             },
-            "scope": 13752,
-            "src": "428:67:9",
+            "scope": 6995,
+            "src": "428:67:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           },
           {
             "body": {
-              "id": 13750,
+              "id": 6993,
               "nodeType": "Block",
-              "src": "522:2:9",
+              "src": "522:2:5",
               "statements": []
             },
             "documentation": null,
-            "id": 13751,
+            "id": 6994,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
@@ -1189,37 +1189,45 @@
             "nodeType": "FunctionDefinition",
             "overrides": null,
             "parameters": {
-              "id": 13748,
+              "id": 6991,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "512:2:9"
+              "src": "512:2:5"
             },
             "returnParameters": {
-              "id": 13749,
+              "id": 6992,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "522:0:9"
+              "src": "522:0:5"
             },
-            "scope": 13752,
-            "src": "501:23:9",
+            "scope": 6995,
+            "src": "501:23:5",
             "stateMutability": "nonpayable",
             "virtual": false,
             "visibility": "public"
           }
         ],
-        "scope": 13753,
-        "src": "59:468:9"
+        "scope": 6996,
+        "src": "59:468:5"
       }
     ],
-    "src": "0:527:9"
+    "src": "0:527:5"
   },
   "compiler": {
     "name": "solc",
     "version": "0.6.12+commit.27d51765.Emscripten.clang"
   },
-  "networks": {},
+  "networks": {
+    "4": {
+      "events": {},
+      "links": {},
+      "address": "0x6454f67283C6B77FcaC169A15fee7b052BFCDb89",
+      "transactionHash": "0xfccd9f7f4520745eb26b68a78179b5d708650e540f52a5cacd3b59c732ab5985"
+    }
+  },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-16T14:39:39.840Z",
+  "updatedAt": "2020-12-22T22:21:31.549Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},

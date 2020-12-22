@@ -12,6 +12,10 @@ export default class Navbars extends Component {
         return (
             <Navbar bg="primary" variant="dark">
                 <Navbar.Brand>Chains Gathering</Navbar.Brand>
+                <div style="text-align:left;">
+                    <p>Weather:</p>
+                    <b id="temperature">-</b>
+                </div>
             </Navbar>
         )
     };
