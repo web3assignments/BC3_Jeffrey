@@ -7,6 +7,6 @@ contract CGCoin is ERC20 {
         ERC20("CGCoin", "CGC")
         public
     {
-        _mint(msg.sender, 1000 * 10 ** uint(decimals()));
+        
     }
 }
