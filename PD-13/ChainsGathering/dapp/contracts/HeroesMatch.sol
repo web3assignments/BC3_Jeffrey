@@ -5,9 +5,6 @@ pragma experimental ABIEncoderV2;
 
 import "./Heroes.sol";
 import "./ProvableAPI.sol";
-//import "../../node_modules/@openzeppelin/upgrades-core/contracts/Initializable.sol";
-//import "../../node_modules/@openzeppelin/contracts/access/AccessControl.sol";
-//import "../../node_modules/@openzeppelin/contracts/access/Ownable.sol";
 
 import "@openzeppelin/upgrades-core/contracts/Initializable.sol";
 import "@openzeppelin/contracts/access/AccessControl.sol";
