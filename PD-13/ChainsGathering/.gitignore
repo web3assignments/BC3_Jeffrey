@@ -2,3 +2,6 @@
 node_modules
 .eslintrc.js
 debug.log
+.secret
+.secret_dev
+.infura
