@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/css/main.dabd5189.chunk.css",
+    "main.js": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/js/main.c1eaf279.chunk.js",
+    "main.js.map": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/js/main.c1eaf279.chunk.js.map",
+    "runtime-main.js": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/js/runtime-main.9526b0e6.js",
+    "runtime-main.js.map": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/js/runtime-main.9526b0e6.js.map",
+    "static/css/2.6414bb7b.chunk.css": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/css/2.6414bb7b.chunk.css",
+    "static/js/2.ad6cca11.chunk.js": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/js/2.ad6cca11.chunk.js",
+    "static/js/2.ad6cca11.chunk.js.map": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/js/2.ad6cca11.chunk.js.map",
+    "index.html": "/BC3_Jeffrey/PD-16/ChainsGathering/public/index.html",
+    "precache-manifest.ee1c88acf636c697305eb369aa1c92a3.js": "/BC3_Jeffrey/PD-16/ChainsGathering/public/precache-manifest.ee1c88acf636c697305eb369aa1c92a3.js",
+    "service-worker.js": "/BC3_Jeffrey/PD-16/ChainsGathering/public/service-worker.js",
+    "static/css/2.6414bb7b.chunk.css.map": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/css/2.6414bb7b.chunk.css.map",
+    "static/css/main.dabd5189.chunk.css.map": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/css/main.dabd5189.chunk.css.map",
+    "static/js/2.ad6cca11.chunk.js.LICENSE.txt": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/js/2.ad6cca11.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/BC3_Jeffrey/PD-16/ChainsGathering/public/static/media/home-bg.b14b257e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9526b0e6.js",
+    "static/css/2.6414bb7b.chunk.css",
+    "static/js/2.ad6cca11.chunk.js",
+    "static/css/main.dabd5189.chunk.css",
+    "static/js/main.c1eaf279.chunk.js"
+  ]
+}
