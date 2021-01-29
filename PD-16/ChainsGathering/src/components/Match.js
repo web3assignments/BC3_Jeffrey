@@ -142,7 +142,13 @@ export default class Match extends Component {
         }
 
         let heroScore = Math.floor(Math.random() * 20) + weatherBonus;
+        if(heroScore < 0){
+            heroScore = 0;
+        }
         let challengerScore = Math.floor(Math.random() * 20);
+        if(challengerScore < 0){
+            challengerScore = 0;
+        }
 
         let estimateGas = await contract.methods.initFight(hero, challenger).estimateGas({ from:accounts[0]});
         let contractstuff = await contract.methods.initFight(hero, challenger).send({ from:accounts[0], gas:estimateGas});
